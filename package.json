@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "http-server": "^0.10.0",
+    "@ardianreiss/simple-evm-faucet": "1.0.0",
     "moment": "^2.18.1"
   }
 }
