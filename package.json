@@ -1,6 +1,6 @@
 {
   "name": "birthday-greetings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The exercise aims to implement a birthday greetings software that uses emails to greet his users.",
   "main": "index.js",
   "scripts": {
