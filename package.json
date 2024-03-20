@@ -1,0 +1,25 @@
+{
+  "name": "birthday-greetings",
+  "version": "1.0.0",
+  "description": "The exercise aims to implement a birthday greetings software that uses emails to greet his users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha --watch",
+    "bundle": "webpack index.js bundle.js",
+    "preserve": "yarn run bundle",
+    "serve": "http-server -p 8080 -c-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0",
+    "sinon": "^4.0.0",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "moment": "^2.18.1"
+  }
+}
